@@ -38,7 +38,7 @@ const teamContainer = document.querySelector('.team-container');
 for (let i = 0; i < team.length; i++) {
   const member = team[i];
 
-  teamContainer.innerHTML = `
+  teamContainer.innerHTML += `
     <div class="team-card">
       <div class="card-image">
         <img
